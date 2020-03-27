@@ -1,25 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+import './global.css';
+
+import Routes from './routes';
+
+/**
+ * JSX: quando o HTML eta integrado dentro do JavaScript
+ * Componente: em react é uma função que retorna HTML, podemos dizer que App é um compomente.
+ * Propriedade: passamos valores no compomente que podem ser mostrados no html, como o titulo.
+ * Estado:é o comportamento da variavel, o estado toda vez que é alterado o componente é renderizado 
+ * novamente para exibir as informações em tela.  
+ * Imutabilidade: nunca podemos manipular o valor do estado de uma forma direta, precisamos sobrepor
+ */
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Routes />
   );
 }
 

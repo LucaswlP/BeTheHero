@@ -11,8 +11,6 @@ module.exports = {
 
     const [count] = await connection('incidents').count(); //total de registros de incidentes
 
-    console.log(count);
-
     /**
      * SELECT    'incidents.*'
                 ,'ongs.name'
