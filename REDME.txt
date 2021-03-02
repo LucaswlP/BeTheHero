@@ -1,0 +1,11 @@
+netlify
+heroku
+digitalOcean
+
+ESlint , Prettier
+
+Autenticacao AWT
+Styled Components
+
+Github
+Linkedin
